@@ -4,3 +4,8 @@
 	margin: 2rem auto;
 	max-width: 40rem;
 }
+p{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}

@@ -2,18 +2,8 @@ import "./ExpensesFilter.css";
 
 const ExpensesFilter = (props) => {
 
-// Не работало: 
-// тут был стейт
-// const [selectedYear, setSelectedYear] = useState('');
-
   const dropdownChangeHandler = (event) => {
     props.onChangeFilter(event.target.value);
-	// а тут был setSelectedYear(event.target.value);
-	// и props.onChangeFilter(selectedYear)
-	// console.log(event.target.value) работал и выводил корректное значение
-	// а вот лог selectedYear выводил предыдущее значение, то есть сначала пустые скобки,
-	// а затем предыдущее значение
-	// дальше смотри Expenses.
   };
 
   return (
